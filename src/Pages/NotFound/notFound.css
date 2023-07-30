@@ -1,0 +1,28 @@
+.notfoundContainer {
+    background: var(--color-primary);
+  
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 60vh;
+  }
+  
+  .NFbtn {
+    border-radius: 25px;
+
+    border: var(--light-green) solid 1px;
+    background: transparent;
+    padding: 12px 32px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: var(--transition);
+    margin-top: 1rem;
+  }
+
+  .NFbtn:hover {
+    background: var(--light-green);
+    color: var(--color-primary);
+  }

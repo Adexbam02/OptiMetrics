@@ -1,0 +1,100 @@
+.Testi {
+  background: var(--color-primary);
+  padding: 30px;
+}
+
+.sectionContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading {
+  display: flex;
+  align-items: last baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  & h2 {
+    font-weight: 400;
+    max-width: 60%;
+  }
+
+  .arrow {
+    cursor: pointer;
+    background: rgba(128, 128, 128, 0.555);
+    fill: var(--color-primary);
+    font-size: 40px;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 50%;
+    margin-left: 10px;
+  }
+}
+
+.testimonials {
+  display: inline-flex;
+  padding: 40px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 40px;
+
+  .testimonial {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    padding: 10px;
+    max-width: 260px;
+    height: fit-content;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0px 12px 32px 0px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+
+    .profile {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      padding: 3px;
+
+      .profileName {
+        display: flex;
+        flex-direction: column;
+
+        .name {
+          font-weight: 700;
+        }
+
+        .role {
+          font-weight: 500;
+        }
+      }
+    }
+  }
+
+  & img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+
+  & p {
+    font-size: 20px;
+    color: black;
+    font-weight: 400;
+  }
+
+  & small {
+    color: var(--color-primary);
+  }
+}
+
+/* MEDIA QUERIES (Medium Screen) */
+@media screen and (max-width: 1024px) {
+  .testimonials {
+    gap: 20px;
+  }
+}

@@ -1,0 +1,151 @@
+.connectContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5rem;
+  margin-bottom: 5rem;
+}
+
+.imgStat {
+  position: relative;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  & h1 {
+    font-size: 2rem;
+    font-weight: 400;
+    max-width: 500px;
+    color: black;
+    line-height: 36px;
+  }
+}
+.info .point {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.point span {
+  cursor: pointer;
+  border-radius: 10px;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  padding: 10px;
+  background: var(--color-primary-variant);
+  transition: var(--transition);
+}
+
+.point span:hover {
+  background: #0e1f2d;
+}
+
+.point span p {
+  color: rgb(255, 255, 255);
+}
+
+.fact img {
+  width: 4.97px;
+  height: 4.956px;
+}
+
+.fact p {
+  color: #0e1f2d;
+}
+
+.connectContainer img {
+  width: 394px;
+  height: 396px;
+}
+
+.chart {
+  position: absolute;
+  bottom: -5rem;
+  right: 8rem;
+  max-width: 201px;
+  max-height: 318px;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0px 4px 32px 0px rgba(0, 0, 0, 0.12);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 20px;
+
+  & h3 {
+    color: var(--color-primary);
+  }
+
+  & small {
+    color: var(--color-primary);
+  }
+}
+.fact {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+
+  & img {
+    height: 7px;
+  }
+}
+.chart img {
+  width: 100%;
+}
+svg {
+  font-size: 20px;
+  stroke: white;
+  fill: white;
+}
+
+.startNow {
+  background: var(--color-primary-variant);
+  width: fit-content;
+  padding: 10px 20px;
+  transition: var(--transition);
+}
+
+.startNow:hover {
+  background: #0e1f2d;
+}
+
+/* MEDIA QUERIES (Medium Screen) */
+@media screen and (max-width: 1024px) {
+  .info {
+    align-items: center;
+  }
+
+  .info .point {
+    align-items: center;
+    width: 100%;
+  }
+  .info h1 {
+    text-align: center;
+  }
+
+  .imgStat {
+    margin-bottom: 2rem;
+  }
+}
+
+/* MEDIA QUERIES (Small Screen) */
+@media screen and (max-width: 600px) {
+  .person {
+    width: 90%;
+  }
+}
