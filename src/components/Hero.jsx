@@ -25,7 +25,7 @@ const Hero = () => {
                 className={`template greenBtn`}
                 placeholder={"Request a Consultation"}
               />
-              <Button className={`explore`} placeholder={"Explore"} />
+              <Button className={`explore exploreHeroBtn`} placeholder={"Explore"} />
             </div>
           </div>
           <div className="headerStat">
