@@ -3,18 +3,22 @@ import Presto from "../src/assets/Prest.svg";
 import serviceImg1 from "../src/assets/serviceImg1.png";
 import serviceImg2 from "../src/assets/serviceImg2.png";
 import serviceImg3 from "../src/assets/serviceImg3.png";
+
+import commited from "../src/assets/commited.png";
+import responsible from "../src/assets/responsible.png";
+import progress from "../src/assets/progress.png";
 import arrowright from "../src/assets/arrow-right.svg";
-import testimoniaImg1 from "../src/assets/testimoniaImg1.png";
+import testimoniaImg1 from "../src/assets/testimoniaImg1.jpg";
 import testimoniaImg2 from "../src/assets/testimoniaImg2.png";
 import testimoniaImg3 from "../src/assets/testimoniaImg3.png";
-import GM from "../src/assets/GM.png";
-import CTO from "../src/assets/CTO.png";
-import COM from "../src/assets/COM.png";
+import profile1 from "../src/assets/profile1.jpg";
+import profile2 from "../src/assets/profile2.jpg";
+import profile3 from "../src/assets/profile3.jpg";
+import profile4 from "../src/assets/profile4.jpg";
 import coinbase from "../src/assets/coinbase.png";
 import dropbox from "../src/assets/dropbox.png";
 import Shield from "../src/assets/Shield.svg";
 import binance from "../src/assets/binance.png";
-// import { AiFillDownCircle } from "react-icons/ai";
 import dataVisual from "./assets/dataVisual.webp";
 import PredictiveAnalytics from "./assets/PredictiveAnalytics.webp";
 import DataIntegration from "./assets/DataIntegration.jpg";
@@ -143,16 +147,16 @@ export const TestimonialData = [
     title:
       "“Game-changer for efficiency; their expertise saved costs and boosted performance.”",
     image: testimoniaImg1,
-    name: "Albus Dumbledore",
-    small: "Manager @Howarts",
+    name: "Barry Clinton",
+    small: "Manager @Owlart Stats",
   },
   {
     id: 2,
     title:
       "“Reliable partners; impressive data analysis and proactive communication. Highly recommend!”",
     image: testimoniaImg2,
-    name: "Severus Snapee",
-    small: "Manager @ Slytherin",
+    name: "Sibbs Muller",
+    small: "CFO @Gleni",
   },
   {
     id: 3,
@@ -160,7 +164,7 @@ export const TestimonialData = [
       "“Seamless experience; customized solutions transformed our operations for the better.”",
     image: testimoniaImg3,
     name: "Bash Bashorun",
-    small: "Team Leader @ Gryffindor",
+    small: "Team Leader @Ostad",
   },
 ];
 
@@ -180,17 +184,17 @@ export const CustomerData = [
 export const numbers = [
   {
     id: 1,
-    title: "1000+",
+    title: "340+",
     small: "Clients Served",
   },
   {
     id: 2,
-    title: "99.9%",
-    small: "JobDone",
+    title: "99%",
+    small: "Satisfied Clients",
   },
   {
     id: 3,
-    title: "40+",
+    title: "13+",
     small: "Country",
   },
 ];
@@ -198,42 +202,48 @@ export const numbers = [
 export const Team = [
   {
     id: 1,
-    image: GM,
+    image: profile2,
     title: "Micheal Scott",
     small: "General Manager",
   },
   {
     id: 2,
-    image: CTO,
-    title: "Dwight Schrute",
-    small: "CTO",
+    image: profile1,
+    title: "Saint Smith",
+    small: "Head Data Engineer",
   },
   {
     id: 3,
-    image: COM,
-    title: "Pam Beetsley",
-    small: "Content Manager",
+    image: profile3,
+    title: "Bashorun Lights",
+    small: "Business Intelligence (BI) Analyst",
+  },
+  {
+    id: 4,
+    image: profile4,
+    title: "Joshephine Queen",
+    small: "Database Administrator",
   },
 ];
 
 export const Values = [
   {
     id: 1,
-    image: serviceImg1,
+    image: responsible,
     title: "We are commited.",
     small:
       "Committed to excellence, innovation, and client success. Trustworthy partners delivering exceptional results. ",
   },
   {
     id: 2,
-    image: serviceImg2,
+    image: commited,
     title: "We are responsible.",
     small:
       "Ethical and accountable, we drive positive impact. Responsible decisions, high standards define us.",
   },
   {
     id: 3,
-    image: serviceImg3,
+    image: progress,
     title: "We aim for progress",
     small:
       "Embracing progress is our mission. Innovation empowers transformative growth.",
@@ -310,6 +320,13 @@ export const Products = [
     title: "Data Governance and Security Solutions",
     paragraph:
       "Tools that help ensure data compliance, security, and privacy while maintaining data quality and integrity.",
+  },
+  {
+    id: 11,
+    // image: DataGovernance,
+    title: "IntelliForecaster",
+    paragraph:
+      "An advanced predictive analytics platform that leverages machine learning algorithms to forecast future trends, enabling businesses to make informed decisions and stay ahead of the competition.",
   },
 ];
 
