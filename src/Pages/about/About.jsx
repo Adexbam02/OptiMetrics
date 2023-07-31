@@ -7,7 +7,7 @@ import CTA from "../../components/CTA";
 const about = () => {
   return (
     <>
-      <div className="aboutPage">
+      <section className="aboutPage">
         <div className="container aboutContainer">
           <TitleHeading
             small="About"
@@ -18,22 +18,19 @@ const about = () => {
             Discover the Future of Informed Decision-Making."
           />
         </div>
-      </div>
+      </section>
 
       <section className="storySection">
         <div className="container ourStoryContainer">
-          <div>
-            {/* <div>d</div> */}
-            <TitleHeading
-              small="Our Story"
-              title="From Vision to Reality: The Incredible Journey of OptiMetrics!"
-              paragraph=" OptiMetrics' journey began with a vision to revolutionize data analysis using cutting-edge technology and unwavering determination. Amidst fierce competition, we aimed high, striving to become one of the world's top 10 data analysis companies. Through relentless innovation, a client-centric approach, and a team of brilliant minds, we achieved the impossible.
+          <TitleHeading
+            small="Our Story"
+            title="From Vision to Reality: The Incredible Journey of OptiMetrics!"
+            paragraph=" OptiMetrics' journey began with a vision to revolutionize data analysis using cutting-edge technology and unwavering determination. Amidst fierce competition, we aimed high, striving to become one of the world's top 10 data analysis companies. Through relentless innovation, a client-centric approach, and a team of brilliant minds, we achieved the impossible.
 
                           Our breakthrough solutions in predictive analytics and data visualization earned recognition, while our commitment to clients fueled our growth. Embracing emerging technologies, we stayed ahead in a dynamic landscape. Overcoming challenges with resilience, our reputation spread through positive testimonials and word-of-mouth.
 
                           Today, standing proudly among the top 10, we cherish our journey. Gratitude goes to our team, clients, and partners for the unwavering support. As we continue our pursuit of excellence, we embrace future opportunities, shaping the world of data analysis and inspiring progress."
-            />
-          </div>
+          />
         </div>
       </section>
 
@@ -87,7 +84,7 @@ const about = () => {
             <TitleHeading
               small="Our Values"
               title="Things in we believe"
-              paragraph= "'In Things We Believe,' our core values drive us. Integrity, innovation, and client-centricity are the pillars of our commitment to excellence and empowering data-driven success."
+              paragraph="'In Things We Believe,' our core values drive us. Integrity, innovation, and client-centricity are the pillars of our commitment to excellence and empowering data-driven success."
             />
             <div className="values">
               {Values.map(({ id, image, title, small }) => {
