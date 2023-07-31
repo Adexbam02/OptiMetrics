@@ -1,6 +1,7 @@
 .Testi {
   background: var(--color-primary);
   padding: 30px;
+  margin-top: 0rem;
 }
 
 .sectionContainer {
