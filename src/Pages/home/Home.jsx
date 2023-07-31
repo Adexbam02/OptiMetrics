@@ -1,6 +1,4 @@
 import Hero from "../../components/Hero";
-// import Hero from "./components/Hero";
-// import Service from "./components/Service";
 import Connect from "../../components/Connect";
 import Testimonial from "../../components/Testimonial";
 import Customer from "../../components/Customer";
@@ -11,7 +9,6 @@ const Home = () => {
   return (
     <>
       <Hero />
-      {/* <Service /> */}
       <Connect />
       <Testimonial />
       <Customer />
