@@ -175,3 +175,12 @@ p {
     gap: 1rem;
   }
 }
+@media screen and (max-width: 622px) {
+  .buttn {
+    flex-direction: column;
+  }
+
+  .exploreHeroBtn{
+    width: 100%;
+  }
+}
