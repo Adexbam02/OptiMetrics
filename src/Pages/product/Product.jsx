@@ -6,16 +6,15 @@ import { Products } from "../../data";
 const Product = () => {
   return (
     <>
-      <div className="productHead">
+      <section className="productHead">
         <div className="container productHeadContainer">
           <TitleHeading
             small="Products"
             title="Empowering Insights: Discover Our Data-Driven Solutions and Services!"
           />
         </div>
-      </div>
-
-      {/* <div> */}
+      </section>
+      
       {Products.map(({ id, image, title, paragraph }) => {
         return (
           // <div key={id} className={`product `}>
@@ -35,7 +34,7 @@ const Product = () => {
                 <p>{paragraph}</p>
                 <a
                   href="/"
-                  className={`link ${id % 2 === 0 ? "colorPrimaryV" : "red"}`}
+                  className={` ${id % 2 === 0 ? "dod" : "link"}`}
                 >
                   Learn More <AiFillRightCircle />
                 </a>
@@ -48,8 +47,6 @@ const Product = () => {
           // </div>
         );
       })}
-      {/* </div> */}
-      
     </>
   );
 };
