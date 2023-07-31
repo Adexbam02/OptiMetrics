@@ -4,12 +4,12 @@ import "../software/software.css";
 const Software = () => {
   return (
     <>
-      <div className="softwareHead">
+      <section className="softwareHead">
         <TitleHeading
           small="Software"
           title="Unleashing Data Potential: Explore Our Powerful Data Analysis Software Suite!"
         />
-      </div>
+      </section>
 
       <div className="wares">
         {software.map(
