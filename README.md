@@ -1,5 +1,7 @@
 # OptiMetrics 
 
+## Empowering Progress through Data Insights - OptiMetrics: Your Strategic Partner in Unleashing the Power of Data Analytics. Discover the Future of Informed Decision-Making.
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
